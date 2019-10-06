@@ -1,7 +1,139 @@
-.social-block {
-	margin-bottom: 80px;
+@import url('https://fonts.googleapis.com/css?family=Caveat|M+PLUS+Rounded+1c:400,500,700|Montserrat:400,500&display=swap&subset=cyrillic');
+
+* {
+	font-family: 'Caveat', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.header {
+	height: 148px;
+}
+
+.container {
+	padding: 0;
+}
+
+.screen-title {
+	padding: 0;
+	margin: 0;
+	color: #4e4754;
+	font-family: "Rounded Mplus 1c Bold";
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+
+.left-block {
+	display: inline-block;
+	width: 348px;
+	vertical-align: top;
+}
+
+.right-block {
+	display: inline-block;
+	position: absolute;
+}
+
+.bg-image {
+	margin-top: 99px;
+	margin-left: 33px;
+}
+
+/*.comming-soon {
+	margin-top: 99px;
+	margin-left: 33px;
+	transform: rotate(-7deg);
+	color: #4e4754;
+	font-family: Caveat;
+	font-size: 32px;
+}
+*/
+.social-tabs {
+	border: none;
+	margin-bottom: 58px;
+	margin-left: 102px;
+}
+
+.social-tabs>li>a {
+	border: none;
+	background-color: transparent;
+	height: 30px;
+	margin: 0 3px;
+	padding: 0 14px;
+	line-height: 30px;
+	border-radius: 15px;
+	color: #825a9f;
+	transition: all .2s ease-in-out;
+}
+
+.social-tabs>li>a:first-child {
+	margin-left: 0;
+}
+
+.social-tabs .new-label:after {
+	display: inline-block;
+	vertical-align: top;
+	content: 'new';
+	height: 14px;
+	padding: 0 4px;
+	color: #fff;
+	line-height: 14px;
+	font-size: 8px;
+	font-weight: 700;
+	letter-spacing: -0.3px;
+	text-transform: uppercase;
+	background-color: #6db620;
+	border-radius: 7px;
+}
+
+.social-tabs>li.active>a,
+.social-tabs>li.active>a:focus {
+	border: none;
+	background-color: #825a9f;
+	color: #fff;
+}
+
+.social-tabs>li.active>a:hover {
+	border: none;
+	background-color: rgba(130, 90, 159, 0.5);
+	color: #fff;
+}
+
+.social-tabs--offset {
+	margin-left: 46px;
+}
+
+.image-wrapper {
+	display: inline-block;
+	width: 112px;
+	vertical-align: top;
+}
+
+.image-wrapper.comments {
+	width: 91px;
+	margin-left: 174px;
 }
 
 .info-block {
-	margin-bottom: 80px;
+	display: inline-block;
+	margin-bottom: 72px;
+}
+
+.info-block__title {
+	margin: 0;
+}
+
+.info-block-text {
+	display: inline-block;
+	padding: 0;
+	margin: 9px 0 0;
+	width: 265px;
+	list-style-type: none;
+	line-height: 26px;
+	vertical-align: top;
+}
+
+.info-block-text--no-width {
+	width: auto;
 }
